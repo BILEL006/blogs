@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Blog | Contact</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <header id="top">
+      <div class="container">
+        <div class="brand">
+          <h1>Mon Blog Développement Web</h1>
+          <p>Posez vos questions.</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="./articles.html">Articles</a></li>
+            <li><a href="./a-propos.html">À propos</a></li>
+            <li><a class="active" href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="contact-card">
+          <h2>Contactez-nous</h2>
+          <p>
+            Vous avez une question, une suggestion ou un sujet à proposer ?
+            Écrivez-nous.
+          </p>
+
+          <form>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Envoyer</button>
+          </form>
+
+          <h3>Informations de contact</h3>
+          <p>Email : contact@monblog.com</p>
+          <p>Téléphone : +216 12 345 678</p>
+          <p>Adresse : Tunis, Tunisie</p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Mon Blog - Tous droits réservés.</p>
+    </footer>
+
+    <a class="back-to-top" href="#top">
+        Haut de page
+    </a>
+  </body>
+</html>
