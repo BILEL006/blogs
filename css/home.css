@@ -1,27 +1,19 @@
-.hero {
-  background: #fff;
-  border-radius: 16px;
-  padding: 2rem;
-  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
-  margin-bottom: 2rem;
-  text-align: center;
+main .container{
+
+    background-color: rgb(202, 121, 121);
+    border-radius: 10px;
+    width: 70%;
+   margin: 0 auto;
+   height: 20%;
+   text-align: center;
+   
 }
 
-.hero h2 {
-  font-size: 2rem;
-  margin-bottom: 0.8rem;
-}
+.home-hero a{
+    background-color:#0f760f ;
+    border-radius: 20px;
+    padding: 0 10px;
+    
+    
 
-.btn {
-  background: #0f766e;
-  color: #fff;
-  padding: 0.6rem 1rem;
-  border-radius: 8px;
-  margin-top: 1rem;
-  display: inline-block;
-}
-
-.btn:hover {
-  background: #0b5d57;
-  text-decoration: none;
 }
